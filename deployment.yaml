@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: web-app
-          image: <dockerhub-username>/web-app:latest
+          image: dhurgajai/web-app:latest
           ports:
             - containerPort: 80
 ---
